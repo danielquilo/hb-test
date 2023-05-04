@@ -1,16 +1,25 @@
 import "./App.css";
-import "./Reset.css"
+import { useState } from "react";
 
-import Gridbox from "./Components/Gridbox/Square";
 import Header from "./Components/Header/Header";
 import Main from "./Components/Main/Main";
 import Footer from "./Components/Footer/Footer";
+import SelectedBeast from "./Components/SelectedBeast/SelectedBeast";
 
 function App() {
+  const [showModal, setShowModal] = useState(false);
+  const [beastModal, setBeastModal] = useState({});
+
+  function handleModal(beast) {
+    setShowModal(!showModal);
+    setBeastModal(beast);
+  }
+
   return (
     <div className="App">
       <Header />
-      <Main />
+      <Main handleModal={handleModal} />
+      {showModal && <SelectedBeast beastModal={beastModal} handleModal={handleModal} />}
       <Footer />
     </div>
   );

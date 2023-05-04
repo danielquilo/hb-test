@@ -1,40 +1,25 @@
-.main-container {
-	display: block;
-	width: 100%;
-	min-height: 90vh;
-	color: black;
-	background-color: white;
-	padding-top: 3rem;
-}
-
-.filter-container {
-	font-size: 1.5rem;
-	text-align: center;
-	margin-bottom: 2rem;
-}
-
-input,
-.btn {
-	font-size: 1.5rem;
-}
-
-.filter-container p {
-	color: black;
-}
-
-img {
-	width: 300px;
-	max-width: 100%;
-	height: 300px;
-	object-fit: contain;
-	margin-top: 1rem;
-}
-
-.beasts-container {
-	display: flex;
-	justify-content: center;
-	flex-wrap: wrap;
-	gap: 2rem;
-	padding: 1rem;
-	margin-bottom: 2rem;
-}
+main {
+          display: flex;
+          width: 80%;
+          margin: 0 auto;
+          margin-top: 10px;
+          flex-wrap: wrap;
+          justify-content: space-between;
+        }
+        .modal {
+          height: 100vh;
+          width: 100vw;
+          position: fixed;
+          top: 0vh;
+          right: 0vw;
+          background-color: rgb(0, 0, 0, 0.7);
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          align-items: center;
+          color: white;
+        }
+        .beast-img  {
+          height: 80vh;
+          width: 80vw;
+        }
