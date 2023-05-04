@@ -1,0 +1,12 @@
+.header-container {
+	display: flex;
+	width: 100%;
+	min-height: 5vh;
+	color: white;
+	background-color: aqua;
+}
+
+.header-container h1 {
+	font-size: 3rem;
+	margin: auto;
+}

@@ -1,0 +1,12 @@
+.footer-container {
+		display: flex;
+		width: 100%;
+		color: black;
+		font-weight: bold;
+		background-image: linear-gradient(red,white, blue);
+	}
+	
+.footer-container p {
+	font-size: 1.5rem;
+	margin: auto;
+}
