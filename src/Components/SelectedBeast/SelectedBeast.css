@@ -1,0 +1,34 @@
+.beast-img {
+	width: 100%;
+	height: 50%;
+        }
+        
+        article {
+	width: 30%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	border-color: blue;
+	border-style: solid;
+	padding: 10px;
+	margin-bottom: 10px;
+        }
+        /*  {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+        } */
+        button {
+	margin: 5px;
+	padding: 1px 6px;
+        }
+        h2 {
+          
+          margin: 20px;
+          background-color:tomato;
+	color: snow;
+        }
+        p {
+	font-style: italic;
+        }
