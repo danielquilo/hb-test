@@ -1,47 +1,24 @@
 body {
-	margin: 0;
-	font-family: monospace;
-        }
-        
-        .light,
-        .dark {
-	height: 100vh;
-	display: flex;
-	flex-direction: column;
-	justify-content: center;
-	align-items: center;
-	text-align: center;
-        }
-        
-        .light {
-	background-color: tomato;
-	color: black;
-        }
-        
-        .dark {
-	background-color: darkslategray;
-	color: white;
-        }
-
-
-        .beast-img {
-	display: flex;
-	justify-content: space-between;
-	flex-wrap: wrap;
-	gap: 1rem;
-        }
-        .beast-img img {
-	width: 100px;
-	height: 100px;
-	object-fit: cover;
-        }
-        
-     
-        
-        .modal img {
-	max-height: 90%;
-	max-width: 90%;
-        }
+margin: 0;
+font-family: monospace;
+background-image:linear-gradient(to top,yellow,red,yellow);
+margin:0;
+}
+.beast-img {
+display: flex;
+justify-content: space-between;
+flex-wrap: wrap;
+gap: 1rem;
+}
+.beast-img img {
+width: 100px;
+height: 100px;
+object-fit: cover;
+}
+.modal img {
+max-height: 90%;
+max-width: 90%;
+}
 .modal {
 height: 100vh;
 width: 100vw;
@@ -56,8 +33,23 @@ align-items: center;
 color: white;
 }
 .beast-img  {
-	max-height: 90%;
-	max-width: 90%;
+max-height: 90%;
+max-width: 90%;
 height: 80vh;
 width: 80vw;
+}
+
+.App {
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+}
+
+form {
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+gap: 1rem;
 }
